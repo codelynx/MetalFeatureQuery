@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC8FBB9A256693DF007577E6 /* FeatureItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FBB99256693DF007577E6 /* FeatureItems.swift */; };
+		CC8FBB9B256693DF007577E6 /* FeatureItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FBB99256693DF007577E6 /* FeatureItems.swift */; };
+		CC8FBBA22566F9A7007577E6 /* UIDevice+additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FBBA12566F9A7007577E6 /* UIDevice+additions.swift */; };
+		CC8FBBA32566F9A7007577E6 /* UIDevice+additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FBBA12566F9A7007577E6 /* UIDevice+additions.swift */; };
 		CCA900DD25667C9E00B8FDF1 /* Metal_Feature_QueryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA900CA25667C9D00B8FDF1 /* Metal_Feature_QueryApp.swift */; };
 		CCA900DE25667C9E00B8FDF1 /* Metal_Feature_QueryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA900CA25667C9D00B8FDF1 /* Metal_Feature_QueryApp.swift */; };
 		CCA900DF25667C9E00B8FDF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA900CB25667C9D00B8FDF1 /* ContentView.swift */; };
@@ -16,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC8FBB99256693DF007577E6 /* FeatureItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItems.swift; sourceTree = "<group>"; };
+		CC8FBB9E2566F139007577E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC8FBBA12566F9A7007577E6 /* UIDevice+additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+additions.swift"; sourceTree = "<group>"; };
 		CCA900CA25667C9D00B8FDF1 /* Metal_Feature_QueryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_Feature_QueryApp.swift; sourceTree = "<group>"; };
 		CCA900CB25667C9D00B8FDF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCA900CC25667C9E00B8FDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		CCA900C425667C9D00B8FDF1 = {
 			isa = PBXGroup;
 			children = (
+				CC8FBB9E2566F139007577E6 /* README.md */,
 				CCA900C925667C9D00B8FDF1 /* Shared */,
 				CCA900D325667C9E00B8FDF1 /* iOS */,
 				CCA900DA25667C9E00B8FDF1 /* macOS */,
@@ -59,7 +67,9 @@
 			children = (
 				CCA900CA25667C9D00B8FDF1 /* Metal_Feature_QueryApp.swift */,
 				CCA900CB25667C9D00B8FDF1 /* ContentView.swift */,
+				CC8FBB99256693DF007577E6 /* FeatureItems.swift */,
 				CCA900CC25667C9E00B8FDF1 /* Assets.xcassets */,
+				CC8FBBA12566F9A7007577E6 /* UIDevice+additions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,7 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA900DF25667C9E00B8FDF1 /* ContentView.swift in Sources */,
+				CC8FBB9A256693DF007577E6 /* FeatureItems.swift in Sources */,
 				CCA900DD25667C9E00B8FDF1 /* Metal_Feature_QueryApp.swift in Sources */,
+				CC8FBBA22566F9A7007577E6 /* UIDevice+additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA900E025667C9E00B8FDF1 /* ContentView.swift in Sources */,
+				CC8FBB9B256693DF007577E6 /* FeatureItems.swift in Sources */,
 				CCA900DE25667C9E00B8FDF1 /* Metal_Feature_QueryApp.swift in Sources */,
+				CC8FBBA32566F9A7007577E6 /* UIDevice+additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +343,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Electricwoods-LLC.Metal-Feature-Query";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.Metal-Feature-Query";
 				PRODUCT_NAME = "Metal-Feature-Query";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -351,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Electricwoods-LLC.Metal-Feature-Query";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.Metal-Feature-Query";
 				PRODUCT_NAME = "Metal-Feature-Query";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -377,7 +391,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Electricwoods-LLC.Metal-Feature-Query";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.Metal-Feature-Query";
 				PRODUCT_NAME = "Metal-Feature-Query";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -401,7 +415,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Electricwoods-LLC.Metal-Feature-Query";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.Metal-Feature-Query";
 				PRODUCT_NAME = "Metal-Feature-Query";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
